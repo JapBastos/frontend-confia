@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="https://pt-br.reactjs.org/" target="blank"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" width="180" alt="React Logo" /></a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Confia Frontend
 
-## Available Scripts
+### Um painel de administração de usuários onde é possível visualizar, adcionar e buscar usuários.
 
-In the project directory, you can run:
+## :rocket: Tecnologias
 
-### `yarn start`
+Este projeto foi desenvolvido como teste para [Rede Confiax](https://www.confiaxseguros.com.br/) com as seguintes tecnologias:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Axios](https://github.com/axios/axios)
+- [styled-components](https://www.styled-components.com/)
+- [polished](https://polished.js.org/)
+- [react-icons](https://github.com/react-icons/react-icons)
+- [react-router-dom](https://reactrouter.com/web/guides/quick-start)
+- [VS Code][vc] with [ESLint][vceslint] and[EditorConfig][vceditconfig]
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## :information_source: Como Utilizar
 
-### `yarn test`
+Para clonar e rodar essa aplicação, você precisará do[Git](https://git-scm.com), [Node.js v12.18][nodejs] ou superior + [Yarn v1.22][yarn] ou superior instalado no seu computador. and the [Backend Confia](https://github.com/JapBastos/backend-confia). Da sua linha de comando:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# Clone this repository
+$ git clone https://github.com/JapBastos/frontend-confia
 
-### `yarn build`
+# Go into the repository
+$ cd frontend-confia
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Install dependencies
+$ yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Run the web app
+$ yarn start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Made with ♥ by João Bastos [Get in touch!](https://www.linkedin.com/in/japbastos/)
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[nodejs]: https://nodejs.org/
+[yarn]: https://yarnpkg.com/
+[vc]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
