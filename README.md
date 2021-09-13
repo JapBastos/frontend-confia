@@ -8,7 +8,7 @@
 
 ## :rocket: Tecnologias
 
-Este projeto foi desenvolvido como teste para [Rede Confiax](https://www.confiaxseguros.com.br/) com as seguintes tecnologias:
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - [ReactJS](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
